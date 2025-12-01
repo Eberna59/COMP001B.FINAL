@@ -25,3 +25,84 @@ header h2 {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+.page-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: darkblue;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.50;
+    margin-bottom: 1.2em;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: blue;
+    margin-top: 6px;
+    border-radius: 2px;
+}
+
+.main.supporting {
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: lightblue;
+    border-left: 5px solid blue;
+    padding: 25px 30px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(red, green, blue);
+}
+
+.sidebar h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin-top: 14px;
+    padding-left: 22px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid red;
+    text-align: center;
+    
+}
